@@ -1,0 +1,31 @@
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# Node / React Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Java / Spring Boot Backend
+backend/target/
+backend/.mvn/
+backend/*.log
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# Temporary / OS files
+*.tmp
+*.log
